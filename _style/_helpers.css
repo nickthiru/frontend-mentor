@@ -1,0 +1,11 @@
+.font-size\:biggish {
+  font-size: var(--size-8) !important;
+}
+
+.max-inline-size\:measure {
+  max-inline-size: var(--measure);
+}
+
+.max-inline-size\:measure\/2 {
+  max-inline-size: calc(var(--measure) / 2);
+}
