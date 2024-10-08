@@ -14,15 +14,15 @@
     margin-block: var(--size-3);
   }
   
-  :global(.cover-l > .center) {
+  :global(.cover-l > .center-l) {
     margin-block: auto;
   }
   
-  .cover-l > :first-child:not(.center) {
+  .cover-l > :first-child:not(.center-l) {
     margin-block-start: 0;
   }
   
-  .cover-l > :last-child:not(.center) {
+  .cover-l > :last-child:not(.center-l) {
     margin-block-end: 0;
   }
 </style>

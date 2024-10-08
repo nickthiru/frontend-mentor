@@ -1,13 +1,17 @@
 <script>
-  export let w = "";  // width
-  export let h = "";  // height
-  export let c = "";  // color
-  export let p = "";  // padding
-  export let b_w = "";  // border-width
-  export let b_s = "";  // border-style
-  export let b_c = "";  // border-color
-  export let b_r = "";  // border-radius
-  export let bg_c = ""; // background-color
+  export let w = "inherit";  // width
+  export let h = "inherit";  // height
+  export let max_w = "inherit";  // max-width
+  export let c = "inherit";  // color
+  export let p = "var(--size-3)";  // padding
+  export let b_w = "0";  // border-width
+  export let b_s = "none";  // border-style
+  export let b_c = "none";  // border-color
+  export let b_r = "0";  // border-radius
+  export let bg_c = "white"; // background-color
+  export let t_align = "left"; // text-align
+  export let l_h = "var(--font-lineheight-1)";  // line-height
+  export let shadow = "none"; // box-shadow
   export let invert = false;
 </script>
 
@@ -18,13 +22,17 @@
   style="
     --w:{w};
     --h:{h};
+    --max-w:{max_w};
     --c:{c};
     --p:{p};
-    --b-w:{b_w}
-    --b-s:{b_s}
-    --b-c:{b_c}
-    --b-r:{b_r}
-    --bg-c:{bg_c}
+    --b-w:{b_w};
+    --b-s:{b_s};
+    --b-c:{b_c};
+    --b-r:{b_r};
+    --bg-c:{bg_c};
+    --t-align:{t_align};
+    --l-h:{l_h};
+    --shadow:{shadow};
   "
 >
   <slot />
@@ -33,19 +41,19 @@
 
 <style>
   .box-l {
-    width: var(--w, inherit);
-    height: var(--h, inherit);
-
-    color: var(--c, inherit);
-
-    padding: var(--p, var(--size-2));
-
-    border-width: var(--b-w, 0);
-    border-style: var(--b-s, none);
-    border-color: var(--b-c, none);
-    border-radius: var(--b-r, 0);
-
-    background-color: var(--bg-c, white);
+    width: var(--w);
+    height: var(--h);
+    max-width: var(--max-w);
+    color: var(--c);
+    padding: var(--p);
+    border-width: var(--b-w);
+    border-style: var(--b-s);
+    border-color: var(--b-c);
+    border-radius: var(--b-r);
+    background-color: var(--bg-c);
+    text-align: var(--t-align);
+    line-height: var(--l-h);
+    box-shadow: var(--shadow);
   }
 
   .box-l * {
