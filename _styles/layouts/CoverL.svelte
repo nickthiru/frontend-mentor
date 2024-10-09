@@ -14,7 +14,7 @@
     margin-block: var(--size-3);
   }
   
-  :global(.cover-l > .center-l) {
+  :global(.cover-l > .box-l) {
     margin-block: auto;
   }
   

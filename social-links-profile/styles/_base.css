@@ -1,17 +1,17 @@
-@import 'open-props/postcss/style';
-/* @import "open-props/normalize.min.css"; */
-/* @import "open-props/normalize.dark.min.css"; */
-@import '../../_styles/_helpers.css';
-
 /*** Base Styles ***/
 
 :root {
 	--measure: 60ch;
 	--outline: 1px solid;
 
-	--white: hsl(0, 0%, 100%);
-	--grey: hsl(219, 15%, 55%);
-	--dark-navy: hsl(217, 44%, 22%);
+	/* Colors */
+	--grey-700: hsl(0deg, 0%, 20%);
+	--grey-800: hsl(0deg, 0%, 12%);
+	--grey-900: hsl(0deg, 0%, 8%);
+
+	--green: hsl(75deg, 94%, 57%);
+
+	--white: hsl(0deg, 0%, 100%);
 }
 
 /* Use a more-intuitive box-sizing model. */
@@ -28,16 +28,18 @@
 }
 
 /* Allow percentage-based heights in the application */
-html,
-body {
+html {
 	height: 100%;
-	font-family: 'Outfit', sans-serif;
-	color: var(--stone-600);
-	background-color: var(--indigo-1);
 }
 
 /* Typographic tweaks */
 body {
+	height: 100%;
+	font-family: 'Inter', system-ui, sans-serif;
+	font-size: var(--font-size-0);
+	color: var(--white);
+	background-color: var(--grey-900);
+
 	line-height: 1.5; /* Add accessible line-height */
 	-webkit-font-smoothing: antialiased; /* Improve text rendering */
 }
