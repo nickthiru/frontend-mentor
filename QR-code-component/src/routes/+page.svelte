@@ -11,7 +11,7 @@
   <CenterL>
     <BoxL max_w="23rem" b_r="var(--radius-3" shadow="var(--shadow-4)">
       <StackL s="var(--size-fluid-3)">
-        <img src="../../images/image-qr-code.png" alt="QR Code" width="336" height="336">
+        <img src="../../assets/image-qr-code.png" alt="QR Code" width="336" height="336">
         <BoxL w="fit-content" p="none" t_align="center">
           <StackL s="var(--size-fluid-2)">
             <h1>Improve your front-end skills by building projects</h1>
