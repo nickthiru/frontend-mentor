@@ -1,0 +1,24 @@
+/*** Titles ***/
+
+/* text-preset-1 */
+.title {
+	font-size: 1.5rem;
+	font-weight: bold;
+	display: inline-block;
+}
+
+/*** Texts ***/
+
+/* text-preset-2 */
+/* .text {
+	font-family: var(--font);
+} */
+
+/* text-preset-2 Bold*/
+.text--bold {
+	font-weight: 600;
+}
+
+.name-location {
+	color: var(--green);
+}

@@ -3,7 +3,9 @@
   export let h = "inherit";  // height
   export let max_w = "inherit";  // max-width
   export let c = "inherit";  // color
-  export let p = "var(--size-3)";  // padding
+  export let p = "0";  // padding
+  export let m = "0";  // margin
+  export let m_inline = "0";  // margin-inline
   export let b_w = "0";  // border-width
   export let b_s = "none";  // border-style
   export let b_c = "none";  // border-color
@@ -29,6 +31,8 @@
     --b-s:{b_s};
     --b-c:{b_c};
     --b-r:{b_r};
+    --m:{m};
+    --m-inline:{m_inline};
     --bg-c:{bg_c};
     --t-align:{t_align};
     --l-h:{l_h};
@@ -50,6 +54,8 @@
     border-style: var(--b-s);
     border-color: var(--b-c);
     border-radius: var(--b-r);
+    margin: var(--m);
+    margin-inline: var(--m-inline);
     background-color: var(--bg-c);
     text-align: var(--t-align);
     line-height: var(--l-h);

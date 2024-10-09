@@ -8,40 +8,26 @@
 </script>
 
 <CoverL>
-  <BoxL w="fit-content" p="var(--size-8)" bg_c="var(--grey-800)" b_r="var(--radius-3)" m_inline="auto">
-
-    <StackL g="var(--size-4)">
-
-      <BoxL m_inline="auto" bg_c="inherit" t_align="center">
-        <StackL>
-
+  <CenterL>
+    <BoxL bg_c="var(--grey-800)" b_r="var(-radius-3)" t_align="center">
+      <StackL s="var(--size-px-5">
+        <StackL s="var(--size-px-5">
           <div>
             <img src="../../assets/avatar-jessica.jpeg" alt="avatar" width="88" height="88">
           </div>
-  
-          <StackL g="var(--size-px-1">
+          <StackL s="var(--size-px-1">
             <h1 class="title">Jessica Randall</h1>
-            <p class="text--bold name-location">London, United Kingdom</p>
+            <p class="text text--bold name-location">London, United Kingdom</p>
           </StackL>
-  
           <p class="text">"Front-end developer and avid reader."</p>
-          
         </StackL>
-      </BoxL>
-  
-      <BoxL bg_c="inherit">
-        <StackL g="var(--size-3)">
+        <StackL>
           <Button>GitHub</Button>
           <Button>Frontend Mentor</Button>
-          <Button>LinkedIn</Button>
-          <Button>Twitter</Button>
-          <Button>Instagram</Button>
         </StackL>
-      </BoxL>
-      
-    </StackL>
-
-  </BoxL>
+      </StackL>
+    </BoxL>
+  </CenterL>
 </CoverL>
 
 <!-- <div class="container--center">

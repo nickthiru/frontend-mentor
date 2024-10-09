@@ -1,0 +1,8 @@
+@import 'open-props/postcss/style';
+/* @import "open-props/normalize.min.css"; */
+/* @import "open-props/normalize.dark.min.css"; */
+
+@import '../../_styles/_helpers.css';
+
+@import '../styles/_base.css';
+@import '../styles/typography.css';
