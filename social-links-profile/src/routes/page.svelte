@@ -10,12 +10,12 @@
 <CoverL>
   <CenterL>
     <BoxL bg_c="var(--grey-800)" b_r="var(-radius-3)" t_align="center">
-      <StackL s="var(--size-px-5">
-        <StackL s="var(--size-px-5">
+      <StackL g="var(--size-px-5">
+        <StackL g="var(--size-px-5">
           <div>
             <img src="../../assets/avatar-jessica.jpeg" alt="avatar" width="88" height="88">
           </div>
-          <StackL s="var(--size-px-1">
+          <StackL g="var(--size-px-1">
             <h1 class="title">Jessica Randall</h1>
             <p class="text text--bold name-location">London, United Kingdom</p>
           </StackL>
