@@ -9,7 +9,7 @@
 
 <CoverL>
   <CenterL>
-    <BoxL max_w="var(--size-15)" min-w="var(--size-14)" p="var(--size-5)" b_r="var(--radius-3)" bg_c="var(--grey-800)">
+    <BoxL max_w="var(--size-15)" p="var(--size-5)" b_r="var(--radius-3)" bg_c="var(--grey-800)">
   
       <StackL g="var(--size-4)">
   
@@ -30,7 +30,7 @@
           </StackL>
         </BoxL>
     
-        <BoxL bg_c="inherit" w="100%">
+        <BoxL bg_c="inherit">
           <StackL g="var(--size-3)">
             <Button>GitHub</Button>
             <Button>Frontend Mentor</Button>
