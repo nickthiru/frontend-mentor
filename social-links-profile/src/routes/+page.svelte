@@ -1,9 +1,9 @@
 <script>
   import "../app.css";
-  import CoverL from "../../../_styles/layouts/CoverL.svelte";
-  import CenterL from "../../../_styles/layouts/CenterL.svelte";
-  import BoxL from "../../../_styles/layouts/BoxL.svelte";
-  import StackL from "../../../_styles/layouts/StackL.svelte";
+  import CoverL from "$layouts/CoverL.svelte";
+  import CenterL from "$layouts/CenterL.svelte";
+  import BoxL from "$layouts/BoxL.svelte";
+  import StackL from "$layouts/StackL.svelte";
 	import Button from "$lib/components/Button.svelte";
 </script>
 

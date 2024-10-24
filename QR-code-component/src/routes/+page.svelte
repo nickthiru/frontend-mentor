@@ -1,9 +1,9 @@
 <script>
   import "../app.css";
-  import BoxL from "../../../_styles/layouts/BoxL.svelte";
-	import CenterL from "../../../_styles/layouts/CenterL.svelte";
-	import CoverL from "../../../_styles/layouts/CoverL.svelte";
-	import StackL from "../../../_styles/layouts/StackL.svelte";
+  import BoxL from "$layouts/BoxL.svelte";
+	import CenterL from "$layouts/CenterL.svelte";
+	import CoverL from "$layouts/CoverL.svelte";
+	import StackL from "$layouts/StackL.svelte";
 </script>
 
 
@@ -24,7 +24,6 @@
   </CenterL>
 </CoverL>
 
-<!-- <BoxL --b-w="var(--size-4)" --b-s="solid" --b-c="var(--red-6)"></BoxL> -->
 
 <style>
   img {
