@@ -9,11 +9,11 @@
 
 <CoverL>
   <CenterL>
-    <BoxL max_w="var(--size-15)" p="var(--size-5)" b_r="var(--radius-3)" m_inline="auto" bg_c="var(--grey-800)">
+    <BoxL max_w="var(--size-15)" min-w="var(--size-14)" p="var(--size-5)" b_r="var(--radius-3)" bg_c="var(--grey-800)">
   
       <StackL g="var(--size-4)">
   
-        <BoxL m_inline="auto" bg_c="inherit" t_align="center">
+        <BoxL bg_c="inherit" t_align="center">
           <StackL>
   
             <div>
