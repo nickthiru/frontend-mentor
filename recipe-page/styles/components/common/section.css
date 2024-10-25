@@ -1,0 +1,27 @@
+/* section:not(#prep-section),
+section:not(#nutrition-section) {
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--stone-600);
+} */
+
+/* section:not(:first-child),
+section:not(:last-child) {
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--stone-600);
+} */
+
+/* section:not(:last-child) {
+  padding-bottom: 0;
+  border-bottom: none;
+} */
+
+section {
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--stone-150);
+}
+
+#prep-section,
+#nutrition-section {
+  padding-bottom: 0;
+  border-bottom: none;
+}

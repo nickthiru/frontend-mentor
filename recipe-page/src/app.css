@@ -1,0 +1,24 @@
+@import 'open-props/postcss/style';
+/* @import "open-props/normalize.min.css"; */
+/* @import "open-props/normalize.dark.min.css"; */
+
+@import '$gl-styles/helpers.css';
+
+@import '$styles/_base.css';
+@import '$styles/typography.css';
+
+/* @import "./components/_base.css";
+
+@import "./components/common/card.css";
+@import "./components/common/container.css";
+@import "./components/common/heading.css";
+@import "./components/common/image.css";
+@import "./components/common/list.css";
+@import "./components/common/section.css";
+@import "./components/common/table.css";
+@import "./components/common/typography.css";
+
+@import "./components/ingredients.css";
+@import "./components/instructions.css";
+@import "./components/nutrition.css";
+@import "./components/preparation.css"; */
