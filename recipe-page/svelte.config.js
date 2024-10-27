@@ -10,7 +10,9 @@ const config = {
 		alias: {
 			"$gl-styles": "../_styles/*",
 			"$layouts": "../_styles/layouts/*",
+			"$components": "./src/lib/components/*",
 			"$styles": "./styles/*",
+			// "$images": "./assets/images/*",
 		},
 	}
 };

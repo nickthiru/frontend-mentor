@@ -1,7 +1,7 @@
 - Download Figma challenge
 - Create SvelteKit project
 - Install "open-props"
-- Copy "/svelte.config.js", "/src/app.css", "/styles/"
+- Copy "/vite.config.js", "/svelte.config.js", "/src/app.css", "/styles/"
 - Move "/assets/", "/design/", "README.md", "README-template.md" from Figma project
 - Replace default code in "+page.svelte" with HTML from Figma project
 - Delete "index.js" from /src/lib/
