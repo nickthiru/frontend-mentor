@@ -14,17 +14,13 @@
       <h2 class="prep__heading outfit-semibold">Preparation time</h2>
       <ul>
         <li>
-          <span class="inc-indent"><span class="outfit-bold">Total</span><span class="outfit-regular">:
-              Approximately 10
-              minutes</span></span>
+          <span class="inc-indent"><b>Total</b>: Approximately 10 minutes</span>
         </li>
         <li>
-          <span class="inc-indent"><span class="outfit-bold">Preparation</span><span class="outfit-regular">:
-              5 minutes</span></span>
+          <span class="inc-indent"><b>Preparation</b>: 5 minutes</span>
         </li>
         <li>
-          <span class="inc-indent"><span class="outfit-bold">Cooking</span><span class="outfit-regular">: 5
-              minutes</span></span>
+          <span class="inc-indent"><b>Cooking</b>: 5 minutes</span>
         </li>
       </ul>
     </div>
@@ -35,8 +31,8 @@
 
 <style>
   .title {
-    font-size: 2.5rem;
-    line-height: 2.75rem;
+    font-size: var(--font-size-6);
+    line-height: var(--font-lineheight-0);
   }
 
   .prep {
@@ -46,7 +42,8 @@
   }
 
   .prep__heading {
-    font-size: var(--size-4);
+    font-family: Outfit, sans-serif;
+    font-size: var(--font-size-3);
     color: var(--pink-11);
   }
 </style>

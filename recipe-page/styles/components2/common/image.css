@@ -1,9 +1,0 @@
-img {
-  border-radius: 20px;
-}
-
-@media (width <= 34rem) {
-  img {
-    border-radius: 0;
-  }
-}

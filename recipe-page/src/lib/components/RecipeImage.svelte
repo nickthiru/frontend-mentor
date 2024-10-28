@@ -10,7 +10,7 @@
   }
 
   img {
-    border-radius: var(--radius-2);
+    border-radius: var(--radius-3);
   }
 
   @media (width <= 24rem) {

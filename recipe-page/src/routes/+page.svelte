@@ -10,7 +10,9 @@
 
 <CoverL>
   <CenterL>
-    <RecipeImage />
-    <RecipeDetails />
+    <article>
+      <RecipeImage />
+      <RecipeDetails />
+    </article>
   </CenterL>
 </CoverL>

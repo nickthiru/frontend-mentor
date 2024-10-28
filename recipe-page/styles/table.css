@@ -1,0 +1,41 @@
+table {
+	width: 100%;
+	border: none;
+	border-collapse: collapse;
+	margin-top: 24px;
+}
+
+table th,
+table tr,
+table td {
+	border: none;
+}
+
+table th,
+table td {
+	text-align: left;
+	padding-inline: 30px;
+	padding-block: 12px;
+}
+
+table tr {
+	border-bottom: 1px solid var(--sand-1);
+}
+
+table td {
+	color: var(--brown-800);
+}
+
+table tr:last-child {
+	border-bottom: none;
+}
+
+table tr:first-child th,
+table tr:first-child td {
+	padding-top: 0;
+}
+
+table tr:last-child th,
+table tr:last-child td {
+	padding-bottom: 0;
+}

@@ -1,0 +1,20 @@
+ul,
+ol {
+	padding-left: 20px;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+li::marker {
+	color: var(--brown);
+	font-family: var(--font-family);
+	font-size: var(--font-size-1);
+	font-weight: var(--font-weight-6);
+}
+
+.inc-indent {
+	position: relative;
+	left: 20px;
+}
