@@ -35,7 +35,7 @@ body {
 	font-style: normal;
 	font-optical-sizing: auto;
 
-	color: var(--stone-8);
+	color: var(--sand-8);
 	background-color: var(--orange-0);
 
 	line-height: var(--font-lineheight-3); /* Add accessible line-height */
@@ -99,6 +99,11 @@ h2 {
 	font-weight: 400;
 }
 
+h1 {
+	color: var(--stone-11);
+}
+
 h2 {
+	color: var(--brown);
 	margin-bottom: var(--size-3);
 }

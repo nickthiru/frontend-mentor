@@ -20,3 +20,11 @@
     </li>
   </ul>
 </section>
+
+
+<style>
+  section {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--sand-1);
+  }
+</style>

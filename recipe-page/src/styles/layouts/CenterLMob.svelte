@@ -22,4 +22,11 @@
     max-inline-size: var(--max-inline);
     padding-inline: var(--p-inline);
   }
+
+  @media (width <= 24rem) {
+    .center-l {
+      /* --p-inline: 0; */
+    padding-inline: 0;
+    }
+  }
 </style>

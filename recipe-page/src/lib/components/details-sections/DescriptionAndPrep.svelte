@@ -1,5 +1,5 @@
 <script>
-  import StackL from "$layouts/StackL.svelte";
+  import StackL from "$gl-layouts/StackL.svelte";
 </script>
 
 <section>
