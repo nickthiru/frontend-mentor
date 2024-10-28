@@ -1,9 +1,9 @@
 <script>
 	import StackL from "$gl-styles/layouts/StackL.svelte";
-	import DescriptionAndPrep from "./DescriptionAndPrep.svelte";
-	import Ingredients from "./Ingredients.svelte";
-	import Instructions from "./Instructions.svelte";
-	import Nutrition from "./Nutrition.svelte";
+	import DescriptionAndPrep from "./details-sections/DescriptionAndPrep.svelte";
+	import Ingredients from "./details-sections/Ingredients.svelte";
+	import Instructions from "./details-sections/Instructions.svelte";
+	import Nutrition from "./details-sections/Nutrition.svelte";
 </script>
 
 

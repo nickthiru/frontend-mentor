@@ -5,6 +5,7 @@ ol {
 
 li {
 	margin-bottom: 10px;
+	padding-left: 20px;
 }
 
 li::marker {
@@ -12,9 +13,5 @@ li::marker {
 	font-family: var(--font-family);
 	font-size: var(--font-size-1);
 	font-weight: var(--font-weight-6);
-}
-
-.inc-indent {
-	position: relative;
-	left: 20px;
+	margin-right: -10px;
 }

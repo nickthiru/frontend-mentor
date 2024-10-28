@@ -9,10 +9,10 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			"$gl-styles": "../_styles/*",
-			"$layouts": "../_styles/layouts/*",
+			"$gl-layouts": "../_styles/layouts/*",
+			"$styles": "./src/styles/*",
+			"$layouts": "./styles/layouts/*",
 			"$components": "./src/lib/components/*",
-			"$styles": "./styles/*",
-			// "$images": "./assets/images/*",
 		},
 	}
 };
