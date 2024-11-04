@@ -1,39 +1,78 @@
 <script>
+  import CenterL from "$gl-layouts/CenterL.svelte";
+	import SwitcherL from "$gl-styles/layouts/SwitcherL.svelte";
+	import Button from "$components/Button.svelte";
   import "../app.css";
-	import Button from "../lib/components/Button.svelte";
+	import Card from "$components/Card.svelte";
+  import courses from "$data/courses.js";
 </script>
 
 
-<nav>
-  <p class="logo">skilled</p>
-  <Button color="black">Get Started</Button>
-</nav>
+<div class="pg-layout">
+  <nav>
+    <CenterL max_inline="70rem">
+      <div class="nav">
+        <p class="logo">skilled</p>
+        <Button color="black">Get Started</Button>
+      </div>
+    </CenterL>
+  </nav>
+  
+  
+  <CenterL max_inline="70rem">
+    <SwitcherL>
+      <div>
+        <h1>Maximize skill, minimize budget</h1>
+        <p>Our modern courses across a range of in-demand skills will give you the 
+        knowledge you need to live the life you want.</p>
+        <Button color="orange">Get Started</Button>
+      </div>
+      <div>
+        <img src="/image-hero-desktop.png" alt="hero" width="500" height="500">
+      </div>
+    </SwitcherL>
+  </CenterL>
 
-<h1>Maximize skill, minimize budget</h1>
-<p>Our modern courses across a range of in-demand skills will give you the 
-knowledge you need to live the life you want.</p>
-<Button color="orange">Get Started</Button>
+  <CenterL>
+    <SwitcherL>
+      {#each courses as course}
+        <Card {course} />
+      {/each}
+    </SwitcherL>
+  </CenterL>
+  
+  <footer>
+    <CenterL max_inline="70rem">
+      <div class="footer">
+        <p class="logo">skilled</p>
+        <Button color="purple">Get Started</Button>
+      </div>
+    </CenterL>
+  </footer>
+</div>
 
-
-<footer>
-  <p class="logo">skilled</p>
-  <Button color="purple">Get Started</Button>
-</footer>
 
 
 <style>
-  nav, footer {
+  .pg-layout {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: var(--size-3);
+    flex-direction: column;
+    min-height: 100%;
   }
 
   footer {
+    margin-top: auto;
     background-color: var(--indigo-12);
   }
 
-  footer .logo {
+  .nav, .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: var(--size-3);
+  }
+
+  .footer .logo {
     color: white;
   }
 </style>
@@ -43,29 +82,4 @@ knowledge you need to live the life you want.</p>
 
 Check out our most popular courses!
 
-Animation
-Learn the latest animation techniques to create stunning motion 
-design and captivate your audience.
-Get Started
-
-Design
-Create beautiful, usable interfaces to help shape the future of 
-how the web looks.
-Get Started
-
-Photography
-Explore critical fundamentals like lighting, composition, and focus 
-to capture exceptional photos.
-Get Started
-
-Crypto
-All you need to know to get started investing in crypto. Go from beginner 
-to advanced with this 54 hour course.
-Get Started
-
-Business
-A step-by-step playbook to help you start, scale, and sustain your business 
-without outside investment.
-Get Started
-
-Get Started -->
+-->
