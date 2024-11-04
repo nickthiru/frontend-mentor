@@ -1,6 +1,5 @@
 <script>
   export let color = "";
-  // export let type = "";
 </script>
 
 
@@ -12,17 +11,21 @@
 
 
 <style>
+  /* Link Button */
   a {
     display: inline-block;
     color: var(--red-6);
-    padding-block: var(--size-3);
-    padding-inline: var(--size-8);
-    border-radius: var(--radius-4);
+    /* padding-block: var(--size-3);
+    padding-inline: var(--size-7);
+    border-radius: var(--radius-4); */
     text-decoration: none;
   }
 
   a.black, a.orange, a.purple {
     color: white;
+    padding-block: var(--size-3);
+    padding-inline: var(--size-7);
+    border-radius: var(--radius-4);
   }
 
   .black {
@@ -38,7 +41,6 @@
   }
 
   a:hover {
-     /* background-color: hsl(234deg, 25%, 52%); */
      opacity: 0.6;
   }
 </style>
