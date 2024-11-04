@@ -15,9 +15,6 @@
   a {
     display: inline-block;
     color: var(--red-6);
-    /* padding-block: var(--size-3);
-    padding-inline: var(--size-7);
-    border-radius: var(--radius-4); */
     text-decoration: none;
   }
 
