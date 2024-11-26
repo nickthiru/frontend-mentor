@@ -3,8 +3,9 @@
 	import SwitcherL from "$gl-styles/layouts/SwitcherL.svelte";
 	import Button from "$components/Button.svelte";
   import "../app.css";
-	import Card from "$components/Card.svelte";
+	import CourseCard from "$components/CourseCard.svelte";
   import courses from "$data/courses.js";
+	import SectionCard from "../lib/components/SectionCard.svelte";
 </script>
 
 
@@ -22,7 +23,7 @@
   <CenterL max_inline="70rem">
     <SwitcherL>
       <div>
-        <h1>Maximize skill, minimize budget</h1>
+        <h1 class="heading">Maximize skill, minimize budget</h1>
         <p>Our modern courses across a range of in-demand skills will give you the 
         knowledge you need to live the life you want.</p>
         <Button color="orange">Get Started</Button>
@@ -35,8 +36,9 @@
 
   <CenterL>
     <SwitcherL>
+      <SectionCard />
       {#each courses as course}
-        <Card {course} />
+        <CourseCard {course} />
       {/each}
     </SwitcherL>
   </CenterL>

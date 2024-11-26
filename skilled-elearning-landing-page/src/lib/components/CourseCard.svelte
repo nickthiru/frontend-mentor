@@ -8,13 +8,11 @@
 
   $: imageSrc = `${base}${course.image}`;
 </script>
+
+
 <div class="card">
-<<<<<<< HEAD
-  <img src={imageSrc} alt={course.name} width="56px" height="56px">
-=======
   <img src={imageSrc} alt={course.name} width="30px" height="30px">
->>>>>>> switcher
-  <h3>{course.name}</h3>
+  <h3 class="heading">{course.name}</h3>
   <p>{course.description}</p>
   <Button>Get Started</Button>
 </div>
@@ -29,5 +27,10 @@
     border-radius: var(--radius-3);
     background-color: white;
     box-shadow: var(--shadow-3);
+  }
+
+  img {
+    position: relative;
+    top: -15px;
   }
 </style>

@@ -1,9 +1,10 @@
 <script>
   export let color = "";
+  export let url = "#";
 </script>
 
 
-<a href="#"
+<a href={url}
   class="{color}"
 >
   <slot />
@@ -11,7 +12,7 @@
 
 
 <style>
-  /* Link Button */
+  /* Link-type Button */
   a {
     display: inline-block;
     color: var(--red-6);
@@ -26,15 +27,16 @@
   }
 
   .black {
-    background-color: hsl(233deg, 54%, 16%);
+    /* background-color: hsl(233deg, 54%, 16%); */
+    background-color: var(--blue-900);
   }
 
   .orange {
-    background-image: linear-gradient(hsl(322deg, 87%, 55%), hsl(13deg, 100%, 64%));
+    background-image: var(--gradient-pink);
   }
 
   .purple {
-    background-image: linear-gradient(hsl(237deg, 100%, 64%), hsl(322deg, 87%, 55%)); 
+    background-image: var(--gradient-purple);
   }
 
   a:hover {
