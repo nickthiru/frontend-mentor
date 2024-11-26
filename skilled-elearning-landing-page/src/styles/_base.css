@@ -5,6 +5,17 @@
 	--outline: 1px solid;
 
 	--font-family: 'Plus Jakarta Sans', sans-serif;
+
+	--blue-900: var(--blue-12);
+	--blue-600: var(--blue-10);
+	--pink-600: var(--pink-6);
+	--pink-300: var(--pink-3);
+	--grey: var(--stone-7);
+
+	/* --gradient-pink: linear-gradient(hsl(322deg, 87%, 55%), hsl(13deg, 100%, 64%));
+	--gradient-purple: linear-gradient(hsl(237deg, 100%, 64%), hsl(322deg, 87%, 55%)); */
+	--gradient-pink: linear-gradient(var(--pink-5), var(--orange-5));
+	--gradient-purple: linear-gradient(var(--indigo-4), var(--pink-5));
 }
 
 /* Use a more-intuitive box-sizing model. */
@@ -30,11 +41,7 @@ body {
 	height: 100%;
 
 	font-family: var(--font-family);
-	font-size: 1.125rem;
 	font-optical-sizing: auto;
-
-	/* color: var(--sand-8);
-	background-color: var(--orange-0); */
 
 	line-height: var(--font-lineheight-3); /* Add accessible line-height */
 	-webkit-font-smoothing: antialiased; /* Improve text rendering */
